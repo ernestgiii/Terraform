@@ -4,4 +4,4 @@ module "cloudtrail_logging" {
   cloudtrail_name = var.cloudtrail_name
   s3_bucket_name  = var.s3_bucket_name
   environment     = var.environment
-}
+} 
