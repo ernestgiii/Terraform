@@ -20,3 +20,9 @@ variable "enable" {
   description = "Enable GuardDuty detector"
   default     = true
 }
+
+variable "alert_email" {
+  type        = string
+  description = "Email address to receive GuardDuty alerts"
+  default     = "Add your email here"
+}
